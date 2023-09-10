@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sms",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_file-Debug-5c1294a1c07cc410c456.json",
+					"name" : "copy_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cp_end::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cp_end-Debug-90d666bdabe10884b101.json",
+					"name" : "cp_end",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cp_end2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cp_end2-Debug-90c6e6733f96bb8d964d.json",
+					"name" : "cp_end2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cp_end3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cp_end3-Debug-48367094d8e31f1309d2.json",
+					"name" : "cp_end3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cp_end4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cp_end4-Debug-6ede7a9efa66cde9e2ae.json",
+					"name" : "cp_end4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "delete_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-delete_file-Debug-1bb8d079d083de14d6d8.json",
+					"name" : "delete_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "delete_file2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-delete_file2-Debug-01a4de745485198490e9.json",
+					"name" : "delete_file2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "delete_file3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-delete_file3-Debug-9ff52e62c90c0970dc7a.json",
+					"name" : "delete_file3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "delete_file4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-delete_file4-Debug-ab2d1f9286c3e5e31c0d.json",
+					"name" : "delete_file4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "end::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-end-Debug-d6d0f78323bbe926e3af.json",
+					"name" : "end",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sms-Debug-5162bab0a4f177a9e058.json",
+					"name" : "sms",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Development/Repos/sms/build",
+		"source" : "D:/Development/Repos/sms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
