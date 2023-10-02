@@ -25,62 +25,8 @@
 },
 {
   "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\entity\\Player\\BodyPart.cpp.obj -c D:\\Development\\Repos\\sms\\src\\entity\\Player\\BodyPart.cpp",
-  "file": "D:/Development/Repos/sms/src/entity/Player/BodyPart.cpp",
-  "output": "CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\entity\\Player\\Face.cpp.obj -c D:\\Development\\Repos\\sms\\src\\entity\\Player\\Face.cpp",
-  "file": "D:/Development/Repos/sms/src/entity/Player/Face.cpp",
-  "output": "CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\entity\\Player\\Head.cpp.obj -c D:\\Development\\Repos\\sms\\src\\entity\\Player\\Head.cpp",
-  "file": "D:/Development/Repos/sms/src/entity/Player/Head.cpp",
-  "output": "CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\entity\\Player\\LeftArm.cpp.obj -c D:\\Development\\Repos\\sms\\src\\entity\\Player\\LeftArm.cpp",
-  "file": "D:/Development/Repos/sms/src/entity/Player/LeftArm.cpp",
-  "output": "CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\entity\\Player\\LeftLeg.cpp.obj -c D:\\Development\\Repos\\sms\\src\\entity\\Player\\LeftLeg.cpp",
-  "file": "D:/Development/Repos/sms/src/entity/Player/LeftLeg.cpp",
-  "output": "CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\entity\\Player\\Player.cpp.obj -c D:\\Development\\Repos\\sms\\src\\entity\\Player\\Player.cpp",
-  "file": "D:/Development/Repos/sms/src/entity/Player/Player.cpp",
-  "output": "CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\entity\\Player\\RightArm.cpp.obj -c D:\\Development\\Repos\\sms\\src\\entity\\Player\\RightArm.cpp",
-  "file": "D:/Development/Repos/sms/src/entity/Player/RightArm.cpp",
-  "output": "CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\entity\\Player\\RightLeg.cpp.obj -c D:\\Development\\Repos\\sms\\src\\entity\\Player\\RightLeg.cpp",
-  "file": "D:/Development/Repos/sms/src/entity/Player/RightLeg.cpp",
-  "output": "CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\main.cpp.obj -c D:\\Development\\Repos\\sms\\src\\main.cpp",
   "file": "D:/Development/Repos/sms/src/main.cpp",
   "output": "CMakeFiles/sms.dir/src/main.cpp.obj"
-},
-{
-  "directory": "D:/Development/Repos/sms/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/sms.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\sms.dir\\src\\ui\\Button.cpp.obj -c D:\\Development\\Repos\\sms\\src\\ui\\Button.cpp",
-  "file": "D:/Development/Repos/sms/src/ui/Button.cpp",
-  "output": "CMakeFiles/sms.dir/src/ui/Button.cpp.obj"
 }
 ]

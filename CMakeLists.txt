@@ -3,14 +3,14 @@ project(sms)
 
 # Set the C++ standard to C++11 or higher
 set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lSDL2 -lSDL2_image")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lSDL2 -lSDL2_image -mwindows")
 
 if (WIN32)
     # Add all the .cpp files in the src directory and its subdirectories
     file(GLOB_RECURSE SOURCES src/*.cpp)
 
     # Add your source files
-    add_executable(sms ${SOURCES})
+    add_executable(sms WIN32 ${SOURCES})
 
 
     if(NOT PNG AND WIN32 AND NOT MSVC)

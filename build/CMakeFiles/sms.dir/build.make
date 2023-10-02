@@ -128,131 +128,11 @@ CMakeFiles/sms.dir/src/core/Viewport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/core/Viewport.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\core\Viewport.cpp -o CMakeFiles\sms.dir\src\core\Viewport.cpp.s
 
-CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj: D:/Development/Repos/sms/src/entity/Player/BodyPart.cpp
-CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj -MF CMakeFiles\sms.dir\src\entity\Player\BodyPart.cpp.obj.d -o CMakeFiles\sms.dir\src\entity\Player\BodyPart.cpp.obj -c D:\Development\Repos\sms\src\entity\Player\BodyPart.cpp
-
-CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\entity\Player\BodyPart.cpp > CMakeFiles\sms.dir\src\entity\Player\BodyPart.cpp.i
-
-CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\entity\Player\BodyPart.cpp -o CMakeFiles\sms.dir\src\entity\Player\BodyPart.cpp.s
-
-CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj: D:/Development/Repos/sms/src/entity/Player/Face.cpp
-CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj -MF CMakeFiles\sms.dir\src\entity\Player\Face.cpp.obj.d -o CMakeFiles\sms.dir\src\entity\Player\Face.cpp.obj -c D:\Development\Repos\sms\src\entity\Player\Face.cpp
-
-CMakeFiles/sms.dir/src/entity/Player/Face.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/entity/Player/Face.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\entity\Player\Face.cpp > CMakeFiles\sms.dir\src\entity\Player\Face.cpp.i
-
-CMakeFiles/sms.dir/src/entity/Player/Face.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/entity/Player/Face.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\entity\Player\Face.cpp -o CMakeFiles\sms.dir\src\entity\Player\Face.cpp.s
-
-CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj: D:/Development/Repos/sms/src/entity/Player/Head.cpp
-CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj -MF CMakeFiles\sms.dir\src\entity\Player\Head.cpp.obj.d -o CMakeFiles\sms.dir\src\entity\Player\Head.cpp.obj -c D:\Development\Repos\sms\src\entity\Player\Head.cpp
-
-CMakeFiles/sms.dir/src/entity/Player/Head.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/entity/Player/Head.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\entity\Player\Head.cpp > CMakeFiles\sms.dir\src\entity\Player\Head.cpp.i
-
-CMakeFiles/sms.dir/src/entity/Player/Head.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/entity/Player/Head.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\entity\Player\Head.cpp -o CMakeFiles\sms.dir\src\entity\Player\Head.cpp.s
-
-CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj: D:/Development/Repos/sms/src/entity/Player/LeftArm.cpp
-CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj -MF CMakeFiles\sms.dir\src\entity\Player\LeftArm.cpp.obj.d -o CMakeFiles\sms.dir\src\entity\Player\LeftArm.cpp.obj -c D:\Development\Repos\sms\src\entity\Player\LeftArm.cpp
-
-CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\entity\Player\LeftArm.cpp > CMakeFiles\sms.dir\src\entity\Player\LeftArm.cpp.i
-
-CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\entity\Player\LeftArm.cpp -o CMakeFiles\sms.dir\src\entity\Player\LeftArm.cpp.s
-
-CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj: D:/Development/Repos/sms/src/entity/Player/LeftLeg.cpp
-CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj -MF CMakeFiles\sms.dir\src\entity\Player\LeftLeg.cpp.obj.d -o CMakeFiles\sms.dir\src\entity\Player\LeftLeg.cpp.obj -c D:\Development\Repos\sms\src\entity\Player\LeftLeg.cpp
-
-CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\entity\Player\LeftLeg.cpp > CMakeFiles\sms.dir\src\entity\Player\LeftLeg.cpp.i
-
-CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\entity\Player\LeftLeg.cpp -o CMakeFiles\sms.dir\src\entity\Player\LeftLeg.cpp.s
-
-CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj: D:/Development/Repos/sms/src/entity/Player/Player.cpp
-CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj -MF CMakeFiles\sms.dir\src\entity\Player\Player.cpp.obj.d -o CMakeFiles\sms.dir\src\entity\Player\Player.cpp.obj -c D:\Development\Repos\sms\src\entity\Player\Player.cpp
-
-CMakeFiles/sms.dir/src/entity/Player/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/entity/Player/Player.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\entity\Player\Player.cpp > CMakeFiles\sms.dir\src\entity\Player\Player.cpp.i
-
-CMakeFiles/sms.dir/src/entity/Player/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/entity/Player/Player.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\entity\Player\Player.cpp -o CMakeFiles\sms.dir\src\entity\Player\Player.cpp.s
-
-CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj: D:/Development/Repos/sms/src/entity/Player/RightArm.cpp
-CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj -MF CMakeFiles\sms.dir\src\entity\Player\RightArm.cpp.obj.d -o CMakeFiles\sms.dir\src\entity\Player\RightArm.cpp.obj -c D:\Development\Repos\sms\src\entity\Player\RightArm.cpp
-
-CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\entity\Player\RightArm.cpp > CMakeFiles\sms.dir\src\entity\Player\RightArm.cpp.i
-
-CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\entity\Player\RightArm.cpp -o CMakeFiles\sms.dir\src\entity\Player\RightArm.cpp.s
-
-CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj: D:/Development/Repos/sms/src/entity/Player/RightLeg.cpp
-CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj -MF CMakeFiles\sms.dir\src\entity\Player\RightLeg.cpp.obj.d -o CMakeFiles\sms.dir\src\entity\Player\RightLeg.cpp.obj -c D:\Development\Repos\sms\src\entity\Player\RightLeg.cpp
-
-CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\entity\Player\RightLeg.cpp > CMakeFiles\sms.dir\src\entity\Player\RightLeg.cpp.i
-
-CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\entity\Player\RightLeg.cpp -o CMakeFiles\sms.dir\src\entity\Player\RightLeg.cpp.s
-
 CMakeFiles/sms.dir/src/main.cpp.obj: CMakeFiles/sms.dir/flags.make
 CMakeFiles/sms.dir/src/main.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
 CMakeFiles/sms.dir/src/main.cpp.obj: D:/Development/Repos/sms/src/main.cpp
 CMakeFiles/sms.dir/src/main.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/sms.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sms.dir/src/main.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/main.cpp.obj -MF CMakeFiles\sms.dir\src\main.cpp.obj.d -o CMakeFiles\sms.dir\src\main.cpp.obj -c D:\Development\Repos\sms\src\main.cpp
 
 CMakeFiles/sms.dir/src/main.cpp.i: cmake_force
@@ -263,37 +143,13 @@ CMakeFiles/sms.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\main.cpp -o CMakeFiles\sms.dir\src\main.cpp.s
 
-CMakeFiles/sms.dir/src/ui/Button.cpp.obj: CMakeFiles/sms.dir/flags.make
-CMakeFiles/sms.dir/src/ui/Button.cpp.obj: CMakeFiles/sms.dir/includes_CXX.rsp
-CMakeFiles/sms.dir/src/ui/Button.cpp.obj: D:/Development/Repos/sms/src/ui/Button.cpp
-CMakeFiles/sms.dir/src/ui/Button.cpp.obj: CMakeFiles/sms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/sms.dir/src/ui/Button.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sms.dir/src/ui/Button.cpp.obj -MF CMakeFiles\sms.dir\src\ui\Button.cpp.obj.d -o CMakeFiles\sms.dir\src\ui\Button.cpp.obj -c D:\Development\Repos\sms\src\ui\Button.cpp
-
-CMakeFiles/sms.dir/src/ui/Button.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sms.dir/src/ui/Button.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\Repos\sms\src\ui\Button.cpp > CMakeFiles\sms.dir\src\ui\Button.cpp.i
-
-CMakeFiles/sms.dir/src/ui/Button.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sms.dir/src/ui/Button.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\Repos\sms\src\ui\Button.cpp -o CMakeFiles\sms.dir\src\ui\Button.cpp.s
-
 # Object files for target sms
 sms_OBJECTS = \
 "CMakeFiles/sms.dir/src/core/Object.cpp.obj" \
 "CMakeFiles/sms.dir/src/core/PhysicsObject.cpp.obj" \
 "CMakeFiles/sms.dir/src/core/Sprite.cpp.obj" \
 "CMakeFiles/sms.dir/src/core/Viewport.cpp.obj" \
-"CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj" \
-"CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj" \
-"CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj" \
-"CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj" \
-"CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj" \
-"CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj" \
-"CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj" \
-"CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj" \
-"CMakeFiles/sms.dir/src/main.cpp.obj" \
-"CMakeFiles/sms.dir/src/ui/Button.cpp.obj"
+"CMakeFiles/sms.dir/src/main.cpp.obj"
 
 # External object files for target sms
 sms_EXTERNAL_OBJECTS =
@@ -302,16 +158,7 @@ sms.exe: CMakeFiles/sms.dir/src/core/Object.cpp.obj
 sms.exe: CMakeFiles/sms.dir/src/core/PhysicsObject.cpp.obj
 sms.exe: CMakeFiles/sms.dir/src/core/Sprite.cpp.obj
 sms.exe: CMakeFiles/sms.dir/src/core/Viewport.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/entity/Player/BodyPart.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/entity/Player/Face.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/entity/Player/Head.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/entity/Player/LeftArm.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/entity/Player/LeftLeg.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/entity/Player/Player.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/entity/Player/RightArm.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/entity/Player/RightLeg.cpp.obj
 sms.exe: CMakeFiles/sms.dir/src/main.cpp.obj
-sms.exe: CMakeFiles/sms.dir/src/ui/Button.cpp.obj
 sms.exe: CMakeFiles/sms.dir/build.make
 sms.exe: C:/Program\ Files\ (x86)/SDL2/lib/libSDL2main.a
 sms.exe: C:/Program\ Files\ (x86)/SDL2_image/lib/libSDL2_image.dll.a
@@ -319,7 +166,7 @@ sms.exe: C:/Program\ Files\ (x86)/SDL2/lib/libSDL2.dll.a
 sms.exe: CMakeFiles/sms.dir/linkLibs.rsp
 sms.exe: CMakeFiles/sms.dir/objects1.rsp
 sms.exe: CMakeFiles/sms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable sms.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development\Repos\sms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sms.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sms.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
