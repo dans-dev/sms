@@ -6,6 +6,7 @@
 
 #include <SDL2/SDL.h>
 #include <SDL_image.h>
+#include <cstdlib>
 #include <vector>
 #include <iostream>
 #include "core/Object.h"
@@ -15,15 +16,14 @@
 #include "core/LayerHandler.h"
 
 
-//actual playspace is 5120x2880
 int main(int argc, char* args[]) {
     // Frame Controls
     int ticksPerFrame = 1000 / 60; // Number of milliseconds per tick
     int lastTickTime = SDL_GetTicks(); // Get the current time
     int windowW = 1280;
     int windowH = 720;
-    int playspaceW = 5120;
-    int playspaceH = 2880;
+    int playspaceW = 10240;
+    int playspaceH = 5760;
     bool running = true;
 
     LayerHandler layerHandler;
@@ -40,7 +40,7 @@ int main(int argc, char* args[]) {
     SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1");
     int playerControls[3] = {SDL_SCANCODE_A, SDL_SCANCODE_D, SDL_SCANCODE_SPACE};
     int currentPlayerControls[3];
-    Viewport viewport(2560, 1440);
+    Viewport viewport(5120, 2880);
 
     // For in gameplay, render in order. Back for Decor, Mid for Objects, front for Decor (rendered above objects)
     std::vector<Sprite> backLayer;
@@ -49,7 +49,7 @@ int main(int argc, char* args[]) {
     std::vector<Sprite> uiLayer;
 
     // Testing
-    Button obj("assets/object/test_block.png", renderer, window, 2560, 1440, 256, 256, 0);
+    Button obj("assets/object/test_block.png", renderer, window, 5120, 2880, 256, 256, 0);
     uiLayer.push_back(obj);
 
 

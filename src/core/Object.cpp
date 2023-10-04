@@ -1,14 +1,20 @@
 #include <iostream>
 #include "Object.h"
 
-Object::Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, int x, int y, int w, int h, float scale, int rot) : Sprite(image, renderer, x, y, w, h, rot) {
+Object::Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, std::vector<Point2D> hitbox, int x, int y, int w, int h, float scale, int rot, bool isStatic) : Sprite(image, renderer, x, y, w, h, rot) {
     this->window = window;
     this->renderer = renderer;
     this->scale = scale;
     setW(w*scale);
     setH(h*scale);
-    this->isStatic = true;
     this->mass = 0;
+    this->isStatic = isStatic;
+    this->hitbox = hitbox;
+    this->velocityX = 0;
+    this->velocityY = 0;
+    this->maxVelocityX = 12;
+    this->maxVelocityY = 40;
+    this->gravity = 1;
     Point2D p1 = {-w/2, -h/2};
     Point2D p2 = {w/2, -h/2};
     Point2D p3 = {w/2, h/2};
@@ -21,12 +27,60 @@ Object::Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, in
 
 }
 
-void Object::update() {
-    std::cout << getAdjustedHitbox().at(0).x << " " << getAdjustedHitbox().at(0).y << " - TL Corner" << std::endl;
-    std::cout << getAdjustedHitbox().at(1).x << " " << getAdjustedHitbox().at(1).y << " - TR Corner" << std::endl;
-    std::cout << getAdjustedHitbox().at(2).x << " " << getAdjustedHitbox().at(2).y << " - BR Corner" << std::endl;
-    std::cout << getAdjustedHitbox().at(3).x << " " << getAdjustedHitbox().at(3).y << " - BL Corner" << std::endl;
-    std::cout << x << " " << y << " - Object Center" << std::endl << std::endl;
+void Object::update(std::vector<Object> objects) {
+    if (!isStatic) {
+        int oldX = x;
+        int oldY = y;
+        bool hasCollidedY = false;
+
+        velocityY += gravity;
+        if (velocityY > maxVelocityY) {
+            velocityY = maxVelocityY;
+        }
+
+        if (velocityX > maxVelocityX) {
+            velocityX = maxVelocityX;
+        } else if (velocityX < -maxVelocityX) {
+            velocityX = -maxVelocityX;
+        }
+
+        x += velocityX;
+        std::vector<Point2D> hitboxMoveX = getAdjustedHitbox();
+        y += velocityY;
+        x = oldX;
+        std::vector<Point2D> hitboxMoveY = getAdjustedHitbox();
+        y = oldY;
+
+        for (int i = 0; i < objects.size(); i++) {
+            if (std::abs(objects.at(i).getX()-x) <= 1024) {
+                if (std::abs(objects.at(i).getY()-y) <= 1024) {
+                    bool collisionResultX = checkCollision(hitboxMoveX, objects.at(i).getAdjustedHitbox());
+                    if (collisionResultX) {
+                        velocityX = 0;
+                    }
+                    bool collisionResultY = checkCollision(hitboxMoveY, objects.at(i).getAdjustedHitbox());
+                    if (collisionResultY) {
+                        velocityY = 0;
+                        if (objects.at(i).getY() > y) {
+                            hasCollidedY = true;
+                        }
+                    }
+
+                    if (collisionResultX and collisionResultY) {
+                        if (objects.at(i).getY() > y) {
+                            y -= 2;
+                        }
+                        if (objects.at(i).getY() < y) {
+                            y += 2;
+                        }
+                    }
+                }
+            }
+        }
+
+        x += velocityX;
+        y += velocityY;
+    }
 }
 
 Point2D getAdjustedPoint(int pointX, int pointY, int objX, int objY, float scale, int rot) {
