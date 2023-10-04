@@ -26,7 +26,7 @@ int main(int argc, char* args[]) {
     int playspaceH = 2880;
     bool running = true;
 
-    LayerHandler LayerHandler;
+    LayerHandler layerHandler;
 
 
     // SDL Setup
@@ -130,8 +130,8 @@ int main(int argc, char* args[]) {
         SDL_RenderClear(renderer);
 
         // Draw Objects
-        LayerHandler.drawLayer(midLayer, window, renderer, viewport);
-        LayerHandler.drawLayer(uiLayer, window, renderer, viewport);
+        layerHandler.drawLayer(midLayer, window, renderer, viewport);
+        layerHandler.drawLayer(uiLayer, window, renderer, viewport);
 
         SDL_RenderPresent(renderer);
     }
