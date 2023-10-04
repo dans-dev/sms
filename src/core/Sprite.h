@@ -15,15 +15,19 @@ public:
 
     int getX() const;
     void setX(int x);
+    int getScreenX(int ratioW, int viewportX) const;
 
     int getY() const;
     void setY(int y);
+    int getScreenY(int ratioH, int viewportY) const;
 
     int getW() const;
     void setW(int w);
+    int getScreenW(int ratioW) const;
 
     int getH() const;
     void setH(int h);
+    int getScreenH(int ratioH) const;
 
     int getRotation() const;
     void setRotation(int rotation);

@@ -41,12 +41,20 @@ void Sprite::setX(int x) {
     this->x = x;
 }
 
+int Sprite::getScreenX(int ratioW, int viewportX) const {
+    return (x+(x-viewportX));
+}
+
 int Sprite::getY() const {
     return y;
 }
 
 void Sprite::setY(int y) {
     this->y = y;
+}
+
+int Sprite::getScreenY(int ratioH, int viewportY) const {
+    return (y+(y-viewportY));
 }
 
 int Sprite::getW() const {
@@ -57,12 +65,20 @@ void Sprite::setW(int w) {
     this->w = w;
 }
 
+int Sprite::getScreenW(int ratioW) const {
+    return w*ratioW;
+}
+
 int Sprite::getH() const {
     return h;
 }
 
 void Sprite::setH(int h) {
     this->h = h;
+}
+
+int Sprite::getScreenH(int ratioH) const {
+    return h*ratioH;
 }
 
 int Sprite::getRotation() const {

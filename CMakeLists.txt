@@ -10,7 +10,7 @@ if (WIN32)
     file(GLOB_RECURSE SOURCES src/*.cpp)
 
     # Add your source files
-    add_executable(sms WIN32 ${SOURCES})
+    add_executable(sms ${SOURCES})
 
 
     if(NOT PNG AND WIN32 AND NOT MSVC)
