@@ -21,14 +21,14 @@ void Sprite::draw(SDL_Renderer *renderer, SDL_Window *window, int cameraX, int c
     SDL_SetTextureColorMod(texture, red,green,blue);
     int windowW, windowH;
     SDL_GetWindowSize(window, &windowW, &windowH);
-    float scaleW = static_cast<float>(windowW)/5120;
-    float scaleH = static_cast<float>(windowH)/2880;
+    float scaleW = static_cast<float>(windowW)/10240;
+    float scaleH = static_cast<float>(windowH)/5760;
 
     // Calculate the position of the box
-    int boxX = (x+(x-cameraX))*scaleW - (w/2)*scaleW;
-    int boxY = (y+(y-cameraY))*scaleH - (h/2)*scaleH;
+    int boxX = (x+(x-cameraX))*scaleW - (w)*scaleW;
+    int boxY = (y+(y-cameraY))*scaleH - (h)*scaleH;
 
-    SDL_Rect renderRect = {boxX, boxY, static_cast<int>(w*scaleW), static_cast<int>(h*scaleH)};
+    SDL_Rect renderRect = {boxX, boxY, 2*static_cast<int>(w*scaleW), 2*static_cast<int>(h*scaleH)};
 
     SDL_RenderCopyEx(renderer, texture, nullptr, &renderRect, rotation, nullptr, SDL_FLIP_NONE);
 }

@@ -12,6 +12,7 @@
 #include "core/Sprite.h"
 #include "core/Viewport.h"
 #include "core/Button.h"
+#include "core/LayerHandler.h"
 
 
 //actual playspace is 5120x2880
@@ -24,6 +25,8 @@ int main(int argc, char* args[]) {
     int playspaceW = 5120;
     int playspaceH = 2880;
     bool running = true;
+
+    LayerHandler LayerHandler;
 
 
     // SDL Setup
@@ -78,7 +81,6 @@ int main(int argc, char* args[]) {
                 case SDL_MOUSEBUTTONDOWN:
                     xClick = event.button.x * playspaceW/windowW;
                     yClick = event.button.y * playspaceH/windowH;
-                    std::cout << xClick << " " << yClick << std::endl;
 
                     switch (event.button.button){
                          case SDL_BUTTON_LEFT:
@@ -88,7 +90,6 @@ int main(int argc, char* args[]) {
                                 int wButton = uiLayer.at(i).getScreenW(playspaceW/windowW);
                                 int hButton = uiLayer.at(i).getScreenH(playspaceH/windowH);
 
-                                std::cout << xButton << " " << yButton << std::endl;
                                 if (xClick < xButton + wButton/2 && xClick > xButton - wButton/2) {
                                     if (yClick > yButton - hButton/2 && yClick < yButton + hButton/2) {
                                         uiLayer.at(i).setRed(0);
@@ -99,7 +100,6 @@ int main(int argc, char* args[]) {
                         case SDL_BUTTON_RIGHT:
                             break;
                         default:
-                            std::cout << "mouse input not recognised" << std::endl;
                             break;
                     }
                     break;
@@ -115,12 +115,7 @@ int main(int argc, char* args[]) {
                         }
                         SDL_GetWindowSize(window, &windowW, &windowH);
                     }
-                    break;
-
-                // Default case
-                //default:
-                //    std::cout << "event not recognised" << std::endl;
-                //    break;   
+                    break; 
             }
         }
 
@@ -135,12 +130,8 @@ int main(int argc, char* args[]) {
         SDL_RenderClear(renderer);
 
         // Draw Objects
-        for (int i = 0; i < midLayer.size(); i++) {
-            midLayer.at(i).draw(renderer, window, viewport.getX(), viewport.getY());
-        }
-        for (int i = 0; i < uiLayer.size(); i++) {
-            uiLayer.at(i).draw(renderer, window, viewport.getX(), viewport.getY());
-        }
+        LayerHandler.drawLayer(midLayer, window, renderer, viewport);
+        LayerHandler.drawLayer(uiLayer, window, renderer, viewport);
 
         SDL_RenderPresent(renderer);
     }
