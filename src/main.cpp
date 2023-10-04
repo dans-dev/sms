@@ -14,6 +14,7 @@
 #include "core/Viewport.h"
 #include "core/Button.h"
 #include "core/LayerHandler.h"
+#include "entity/Player/Player.h"
 
 
 int main(int argc, char* args[]) {
@@ -44,13 +45,18 @@ int main(int argc, char* args[]) {
 
     // For in gameplay, render in order. Back for Decor, Mid for Objects, front for Decor (rendered above objects)
     std::vector<Sprite> backLayer;
-    std::vector<Sprite> midLayer;
+    std::vector<Object> midLayer;
     std::vector<Sprite> frontLayer;
     std::vector<Sprite> uiLayer;
 
     // Testing
     Button obj("assets/object/test_block.png", renderer, window, 5120, 2880, 256, 256, 0);
+    Player player("assets/entity/steve/body.png", renderer, window, 3000, 2880, 512, 512, 0);
     uiLayer.push_back(obj);
+
+    for (int i = 0; i < 10240; i+= 256) {
+        midLayer.push_back(Object("assets/object/test_block.png", renderer, window, i, 3500, 256, 256, 1.0, 0, true));
+    }
 
 
     // Game loop
@@ -118,19 +124,22 @@ int main(int argc, char* args[]) {
                     break; 
             }
         }
+        
+        // Render Loop
+        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+        SDL_RenderClear(renderer);
 
         // Logic Loop (Runs at 60 ticks per second)
         while (deltaTime >= ticksPerFrame) {
             deltaTime -= ticksPerFrame;
             lastTickTime += ticksPerFrame;
+            player.update(midLayer, currentPlayerControls, viewport.getX(), viewport.getY());
         }
 
-        // Render Loop
-        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-        SDL_RenderClear(renderer);
 
         // Draw Objects
         layerHandler.drawLayer(midLayer, window, renderer, viewport);
+        player.draw(renderer, window, viewport.getX(), viewport.getY());
         layerHandler.drawLayer(uiLayer, window, renderer, viewport);
 
         SDL_RenderPresent(renderer);

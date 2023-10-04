@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Object.h"
 
-Object::Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, std::vector<Point2D> hitbox, int x, int y, int w, int h, float scale, int rot, bool isStatic) : Sprite(image, renderer, x, y, w, h, rot) {
+Object::Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, int x, int y, int w, int h, float scale, int rot, bool isStatic) : Sprite(image, renderer, x, y, w, h, rot) {
     this->window = window;
     this->renderer = renderer;
     this->scale = scale;
@@ -9,7 +9,6 @@ Object::Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, st
     setH(h*scale);
     this->mass = 0;
     this->isStatic = isStatic;
-    this->hitbox = hitbox;
     this->velocityX = 0;
     this->velocityY = 0;
     this->maxVelocityX = 12;
@@ -27,7 +26,7 @@ Object::Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, st
 
 }
 
-void Object::update(std::vector<Object> objects) {
+bool Object::update(std::vector<Object> objects) {
     if (!isStatic) {
         int oldX = x;
         int oldY = y;
@@ -80,6 +79,10 @@ void Object::update(std::vector<Object> objects) {
 
         x += velocityX;
         y += velocityY;
+
+        return hasCollidedY;
+    } else {
+        return false;
     }
 }
 

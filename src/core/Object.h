@@ -17,8 +17,8 @@ struct Point2D {
 
 class Object : public Sprite {
 public:
-    Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, std::vector<Point2D> hitbox, int x, int y, int w, int h, float scale, int rot, bool isStatic);
-    void update(std::vector<Object> objects);
+    Object(const char *image, SDL_Renderer *renderer, SDL_Window *window, int x, int y, int w, int h, float scale, int rot, bool isStatic);
+    bool update(std::vector<Object> objects);
     std::vector<Point2D> getHitbox();
     std::vector<Point2D> getAdjustedHitbox();
     bool checkCollision(const std::vector<Point2D> &poly1, const std::vector<Point2D> &poly2);
